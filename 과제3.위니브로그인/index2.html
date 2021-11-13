@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="../reset2.css">
+    <link rel="stylesheet" href="./main.js">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <title>로그인페이지</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1> 로그인 또는 회원가입 </h1>
+      </header>
+      <section>
+        <h2 class="blind">로그인 입력창</h2>
+        <form>
+          <p class="solution">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+          <input type="text" placeholder="아이디" class="all_btn" required>
+          <input type="password" placeholder="비밀번호" class="all_btn" required>
+          <div class="check-wrap">
+            <button class="checkbox" id="check">✔</button>
+            <label for="check">로그인 상태 유지</label>
+            <!-- button안에 id랑 label의 for가 같은 값이어야 
+            글씨를 클릭 했을 때 적용 가능 -->
+          </div>
+          <!-- 체크박스에 name, id 있는데 다 써야되는 속성인지? 그리고
+            대체적으로 id가 있으면 class를 안주는지? 궁금 -->
+          <button class="all_btn login_btn">로그인</button>
+        </form>
+        <div class="find">
+          <p><a href="" class="join">회원가입</a></p>
+          <p><a href="">아이디/비밀번호 찾기</a></p>
+        </div>
+        <p class="or">또는</p>
+        <div class="btn_col">
+          <button class="all_btn google"><img src="./images/Google__G__Logo 1.svg" alt="구글">구글 계정으로
+            로그인</button>
+          <button class="all_btn facebook"><img src="./images/facebook.svg" alt="페이스북">페이스북 계정으로
+            로그인</button>
+          <button class="all_btn naver"><img src="./images/naver-logo.svg" alt="네이버">네이버 계정으로 로그인</button>
+          <button class="all_btn kakao"><img src="./images/kakao.svg" alt="카카오톡">카카오톡 계정으로
+            로그인</button>
+        </div>
+      </section>
+      <button class="x_btn"><i class="xi-close-thin"></i></button>
+    </main>
+  </body>
+
+</html>

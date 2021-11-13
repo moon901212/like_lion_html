@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body{
+  color: #767676;
+}
+button{
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #767676;
+}
+a{
+  text-decoration: none;
+  color:#767676;
+}
+main{
+  position: relative;
+  margin: 50px auto 50px;
+  width: 520px;
+  height: 712px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+}
+/* header */
+header::after{
+  display: block;
+  content: '';
+  width: 519px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+header h1{
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin: 20px auto;
+}
+
+section{
+  
+}
+section form{
+  display: flex;
+  flex-direction: column;
+  width: 472px;
+  margin: 0 auto;
+}
+section form .solution{
+ color: black;
+ font-weight: 500;
+ font-size: 20px;
+ margin: 26px 0 24px 0;
+}
+section form input{
+
+}
+section .all_btn{
+  width: 472px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 16px;
+  margin-bottom: 10px;
+}
+section .check-wrap{
+  margin-top: 7px;
+}
+section .check-wrap .checkbox{
+  width: 22px;
+  height: 22px;
+  color: #767676;
+  border-radius: 22px;
+  border: 1px solid #767676;
+}
+
+section form .login_btn{
+  background-color: #2f80ed;
+  color: #fff;
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+}
+section .find{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section .find p{
+  margin: 0 12px;
+}
+section .find a{
+  font-size: 14px;
+}
+
+section .find .join::after{
+  display: inline-block;
+  content: '';
+  width: 1px;
+  height: 12px;
+  background-color: #767676;
+  position: relative;
+  left: 12px;
+}
+section .or{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+section .or::before,
+section .or::after{
+  display: inline-block;
+  content: '';
+  width: 210px;
+  height: 1px;
+  background-color: #767676;
+  border: none;
+  position: relative;
+  bottom: 6px;
+}
+section .or::before{
+  right: 13px;
+}
+section .or::after{
+  left: 13px;
+}
+.btn_col{
+  margin: 0 24px;
+}
+.btn_col .all_btn{
+  font-weight: 500;
+}
+.btn_col img{
+  float: left;
+  width: 22px;
+}
+.all_btn.facebook{
+  border: 1px solid #2d9cdb;
+}
+.all_btn.naver{
+  border: 1px solid #00bf18;
+}
+.all_btn.kakao{
+  border: 1px solid #f2c94c;
+}
+.x_btn{
+  position: absolute;
+  top: 22px;
+  right: 24px;
+}
